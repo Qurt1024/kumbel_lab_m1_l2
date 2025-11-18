@@ -25,6 +25,13 @@
 // Всего задач: 5
 //
 void main() {
-  // Напишите ваш код здесь
+  List tasks = [];
+  tasks.add('Do homework');
+  tasks.add('Buy groceries');
+  tasks.add('Call a friend');
+  List moreTasks = ['Read a book','Do sports'];
+  tasks.addAll(moreTasks);
+  print('To do list:\n' + tasks.join('\n') + '\n\n');
+  print('Tasks total:${tasks.length}');
 
 }

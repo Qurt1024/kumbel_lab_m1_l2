@@ -28,6 +28,15 @@
 // (использовано значение по умолчанию)
 //
 void main() {
-  // Напишите ваш код здесь
+  String? userName = null;
+  var displayName = userName ?? 'Guest';
+  print('displayName:$displayName');
+  userName = 'Ivan';
+  displayName = userName ?? 'Ivan';
+  print('displayName:$displayName');
+
+  int? age = null;
+  var defaultAge = age ?? 18;
+  print('defaultAge: $defaultAge');
 
 }

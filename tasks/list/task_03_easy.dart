@@ -27,6 +27,15 @@
 // Итоговые цвета: [оранжевый, жёлтый, белый]
 //
 void main() {
-  // Напишите ваш код здесь
+  List colors = ['red','green','blue','yellow','black'];
+  print(colors);
+
+  colors[1] = 'orange';
+  colors[4] = 'white';
+  colors.remove('blue');
+  colors.removeAt(0);
+
+
+  print(colors);
 
 }

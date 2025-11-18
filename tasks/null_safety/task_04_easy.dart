@@ -31,7 +31,12 @@
 // Длина: null (проверено безопасно)
 //
 void main() {
-  // Напишите ваш код здесь
+  String? text = 'Dart';
+  print('Length:${text!.length}');
+  int? number = 42;
+  print('Multiply number by two: ${number! * 2}');
+  String? emptyText = null;
+  print('Check for null value:${emptyText?.length}');
 
   // Попробуйте раскомментировать:
   // print(emptyText!.length); // Что произойдет?

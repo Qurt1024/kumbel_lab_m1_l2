@@ -35,6 +35,27 @@
 // Размер: 6 элементов
 
 void main() {
-  // Напишите ваш код здесь
+  Set numbers = {};
+
+  numbers.add(10);
+  print(numbers);
+  numbers.add(20);
+  print(numbers);
+  numbers.add(30);
+  print(numbers);
+  numbers.add(10);
+  print(numbers);
+  numbers.add(40);
+  print(numbers);
+  numbers.add(20);
+  print(numbers);
+
+  numbers.addAll([50,60,70]);
+  print(numbers);
+
+  numbers.remove(30);
+  numbers.remove(100);
+  print('Final set is $numbers');
+  print('Set size:${numbers.length}');
 
 }

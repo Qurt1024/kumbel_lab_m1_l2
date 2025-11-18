@@ -31,6 +31,22 @@
 // Всего уникальных имен: 4
 
 void main() {
-  // Напишите ваш код здесь
+  List numbersWithDuplicates = [1,2,3,2,4,1,5,3,6,4,7,5];
+  print('Original list: $numbersWithDuplicates');
+  print('Length:${numbersWithDuplicates.length}');
+
+  var uniqueNumbers = numbersWithDuplicates.toSet();
+  var deletedNumbers = numbersWithDuplicates.length - uniqueNumbers.length;
+  print('Updated list:$uniqueNumbers');
+  print('Amount of unique numbers:${uniqueNumbers.length}');
+  print('Deleted duplicates:${deletedNumbers}');
+  
+  var convertedNumList = uniqueNumbers.toList();
+  print('Converted back to list:$convertedNumList');
+
+  List names = ['Ivan','Maria','Peter','Ivan','Anna','Maria','Ivan'];
+  var uniqueNames = names.toSet();
+  print('Unqiue names:$uniqueNames');
+  print('Unique names amount:${uniqueNames.length}');
 
 }

@@ -16,6 +16,8 @@
 // (с вашими данными)
 
 void main() {
-  // Напишите ваш код здесь
+  var name = 'Leila';
+  var age = 18;
+  print('My name is $name,I am $age years old');
 
 }

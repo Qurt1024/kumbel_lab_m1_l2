@@ -30,6 +30,22 @@
 // Петр: 120 баллов
 
 void main() {
-  // Напишите ваш код здесь
+  Map playerScore={
+    'Ivan': 100,
+    'Maria': 150,
+    'Petr': 50
+  };
+  print('Initial map:');
+  print('Ivan: ${playerScore['Ivan']}');
+  print('Maria: ${playerScore['Maria']}');
+  print('Petr: ${playerScore['Petr']}');
+
+  playerScore['Ivan'] = 180;
+  playerScore['Maria'] = 200;
+
+  print('\nUpdated map:');
+  print('Ivan: ${playerScore['Ivan']}');
+  print('Maria: ${playerScore['Maria']}');
+  print('Petr: ${playerScore['Petr']}');
 
 }

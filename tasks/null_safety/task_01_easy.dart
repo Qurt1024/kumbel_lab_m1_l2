@@ -28,7 +28,12 @@
 // // name = null; // ОШИБКА! String не может быть null
 //
 void main() {
-  // Напишите ваш код здесь
+   String name = 'Leila';
+  String? nickname = null;
+  print('Normal variable: $name');
+  print('Nullable variavle: $nickname');
+  print('Does nickname equals null? ${nickname == null}');
+
 
   // Попробуйте раскомментировать:
   // name = null; // Что произойдет?

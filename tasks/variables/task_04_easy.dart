@@ -20,6 +20,10 @@
 // Возраст: 20
 
 void main() {
-  // Напишите ваш код здесь
+  final currentYear = 2025;
+  final birthYear = 2007;
+  var myAge = currentYear - birthYear;
+
+  print('The current year is $currentYear,my year of birth is $birthYear,so it makes me $myAge years old');
 
 }

@@ -29,7 +29,17 @@
 // // message.length // ОШИБКА! Нельзя вызывать методы на null
 //
 void main() {
-  // Напишите ваш код здесь
+  String? message = 'Hello, World!';
+  print('Message: $message');
+  print('Length:${message?.length}');
+  print('Upper case:${message?.toUpperCase()}');
+
+  message = null;
+  print('Length:${message?.length}');
+  print('Upper case:${message?.toUpperCase()}');
+  message = message ?? 'No message';
+  print('Length:${message?.length}');
+  print('Upper case:${message?.toUpperCase()}');
 
   // Попробуйте раскомментировать:
   // print(message.length); // Что произойдет?

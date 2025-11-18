@@ -25,6 +25,14 @@
 // ☂️ Взять зонт: false (потому что солнечно)
 
 void main() {
-  // Напишите ваш код здесь
+  bool isSunny = true;
+  bool isWarm = true;
+  bool isWeekend = false;
+
+  var canGoToBeach = isSunny && isWarm && isWeekend;
+  var shouldTakeUmbrella = !isSunny;
+
+  print('Sunny:$isSunny \nWarm:$isWarm \nIs it weekend:$isWeekend \n\nCan we go to the beach? $canGoToBeach \nShould we take umbrella? $shouldTakeUmbrella');
+
 
 }

@@ -17,6 +17,10 @@
 // Длина окружности с радиусом 5: 31.4159
 
 void main() {
-  // Напишите ваш код здесь
+  const pi = 3.14159;
+  const appName = 'My first project';
+  var radius = 5;
+  print('App: $appName');
+  print('The length of circle is ${2 * pi * radius} with the radius of $radius');
 
 }

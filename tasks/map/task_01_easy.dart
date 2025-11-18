@@ -31,6 +31,21 @@
 // Количество полей: 4
 
 void main() {
-  // Напишите ваш код здесь
+  var personInfo = {
+    'name': 'John',
+    'age': 99,
+    'city': 'Astana',
+    'student': true
+  };
+  print(personInfo);
+
+  print('Name: ${personInfo['name']}');
+  print('Age: ${personInfo['age']}');
+  print('City: ${personInfo['city']}');
+  print('Student?: ${personInfo['student']}');
+
+  print(personInfo.keys);
+  print(personInfo.values);
+  print('Entries amount:${personInfo.length}');
 
 }

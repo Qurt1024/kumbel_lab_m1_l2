@@ -31,6 +31,16 @@
 // Множество не изменилось: {яблоко, банан, апельсин, киви, манго}
 
 void main() {
-  // Напишите ваш код здесь
+  Set fruits = {'apple','banana','orange','apple','kiwi','banana'};
+  print(fruits);
+  print('Amount of unique fruits:${fruits.length}');
+  print('Is there apple? ${fruits.contains('apple')}');
+  print('Is there pear ${fruits.contains('pear')}');
+
+  fruits.add('mango');
+  print(fruits);
+
+  fruits.add('apple');
+  print(fruits);
 
 }

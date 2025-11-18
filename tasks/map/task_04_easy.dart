@@ -30,6 +30,18 @@
 // Всего позиций: 4
 
 void main() {
-  // Напишите ваш код здесь
+    Map inventory={
+    'apple': 5,
+    'bread': 2,
+    'milk': 3,
+    'cheese': 1
+  };
+  print('Does the inventory contain apples? ${inventory.containsKey('apple')}');
+  print('Does the inventory contain meat? ${inventory.containsKey('meat')}');
+  print('Does the inventory contain 3 items? ${inventory.containsValue(3)}');
+  print('Does the inventory contain 10 items? ${inventory.containsValue(10)}');
+  print('Is the inventory empty? ${inventory.isEmpty}');
+  print('Is the inventory NOT empty? ${inventory.isNotEmpty}');
+  print('Inventory size: ${inventory.length}');
 
 }

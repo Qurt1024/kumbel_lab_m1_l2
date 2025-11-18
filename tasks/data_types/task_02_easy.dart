@@ -21,6 +21,9 @@
 // Точное деление: 3.3333333333333335 яблока на человека
 
 void main() {
-  // Напишите ваш код здесь
+  int apples = 10;
+  int people = 3;
+  double applesPerPerson = apples / people;
+  print('Amount of apples for everyone:${apples~/people}. Leftover:${apples % people}. Apples per person:$applesPerPerson');
 
 }

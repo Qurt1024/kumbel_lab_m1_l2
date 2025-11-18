@@ -43,6 +43,23 @@
 // Размер множества: 5
 
 void main() {
-  // Напишите ваш код здесь
+  var colors = <String> {'red','green','blue','yellow','orange'};
+  print('Full list:$colors');
+  print('First color:${colors.first}');
+  print('Last color:${colors.last}');
+
+  var colorsList = colors.toList();
+  print('Index 0:${colorsList[0]}');
+  print('Index 1:${colorsList[1]}');
+  print('Index 2:${colorsList[2]}');
+  print('Index 3:${colorsList[3]}');
+  print('Index 4:${colorsList[4]}');
+
+  print('Colors in upper case:');
+  print(colorsList[0].toUpperCase());
+  print(colorsList[1].toUpperCase());
+  print(colorsList[2].toUpperCase());
+  print(colorsList[3].toUpperCase());
+  print(colorsList[4].toUpperCase());
 
 }

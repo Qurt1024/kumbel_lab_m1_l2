@@ -28,6 +28,14 @@
 // Количество студентов: 5
 //
 void main() {
-  // Напишите ваш код здесь
+  List students = ['Иван', 'Мария', 'Петр', 'Анна', 'Дмитрий'];
+  List emptyList = [];
+  print('Is "Maria" on the list? ${students.contains('Мария')}');
+  print('Is "Oleg" on the list? ${students.contains('Олег')}');
+
+  print('Petrs index:${students.indexOf('Петр')}');
+  print('Is the list empty?${students.isEmpty}');
+  print('Is the empty list empty(yeah)?${emptyList.isEmpty}');
+  print('Students amount:${students.length}');
 
 }

@@ -22,6 +22,12 @@
 // Прочитано: да
 
 void main() {
-  // Напишите ваш код здесь
+  String bookName = 'How to Talk to Your Cat About Gun Safety: And Abstinence, Drugs, Satanism, and Other Dangers That Threaten Their Nine Lives';
+  int pageAmount = 144;
+  double bookRating = 4.7;
+  bool isItRead = true;
+  
+
+  print('Name:$bookName\n' + 'Page amount:$pageAmount\n' + 'Book rating:$bookRating\n'  + 'Read finished:$isItRead\n');
 
 }

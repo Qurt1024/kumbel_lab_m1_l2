@@ -19,6 +19,9 @@
 // Дождь: false
 
 void main() {
-  // Напишите ваш код здесь
+  var city = "Almaty";
+  var temperature = 14;
+  var isRaining = false;
+  print('City:$city \nTemperature:$temperature \nIs it raining?$isRaining');
 
 }

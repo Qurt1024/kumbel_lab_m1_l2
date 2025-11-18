@@ -21,6 +21,13 @@
 // Приветствие: Привет, Иван Иванов!
 
 void main() {
-  // Напишите ваш код здесь
+  String firstName = 'Leila';
+  String lastName = 'Salimova';
+  String fullName = firstName + ' ' + lastName;
+
+  String gretting = 'Hi';
+
+  print(gretting + ', ' + fullName);
+  print('Length of full name is ${fullName.length}');
 
 }

@@ -21,6 +21,11 @@
 // Всего фруктов: 5
 //
 void main() {
-  // Напишите ваш код здесь
+  List fruits = ['apple','banana','orange','pear','kiwi'];
+  print(fruits);
+  print('The first fruit is ${fruits[0]}');
+  print('The last fruit is ${fruits[4]}');
+  print('The third fruit is ${fruits[2]}');
+  print('List size is ${fruits.length}');
 
 }
